@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-	int fahr, celsius;
+	float fahr, celsius;
 	int lower, upper, step;
 
 	lower = 0;
