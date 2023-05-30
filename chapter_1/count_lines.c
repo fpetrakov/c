@@ -9,6 +9,6 @@ int main() {
 	while ((c = getchar()) != EOF) 
 		if (c == '\n') // single ' will return ASCII code of character
 			++nl;
-			printf("%d\n", c); // -1 in this case
+			printf("%i\n", 'A'); // 65 in this case
 	printf("%d\n", nl);
 }
