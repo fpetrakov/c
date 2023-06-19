@@ -3,7 +3,7 @@
 #define VTAB '\013'
 #define BELL '\007'
 
-size_t mystrlen(char s[]) {
+size_t mystrlen(const char s[]) {
 	size_t i;
 
 	i = 0;
@@ -23,6 +23,9 @@ int main(void) {
 	};
 	enum Escapes tab = TAB;
 	printf("enum var: %d\n", tab);
+
+
+	const double e = 2.1231231;
 
 	return 0;
 }
